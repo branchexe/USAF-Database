@@ -19,7 +19,7 @@
             <a target="_blank" href="source.txt">View Source Code</a>
             <a href="#">Sources</a>
             <a href="#">Color Palette</a>
-            <a href="sys-info.html">System Information</a>
+            <a href="#">System Information</a>
           </div>
 
         <!--End Sidebar-->
