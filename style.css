@@ -216,10 +216,9 @@ hr {
     height: 800vh;
     margin-right: 1%;
     float: left;
-    
     /*background: linear-gradient(to right, white, rgba(0, 0, 0, 0.384));*/
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 #left-panel #left-panel-header {
     text-align: center;
@@ -236,10 +235,42 @@ hr {
 }
 
 #left-content {
-    color: red;
+    color: blue;
+    line-height: 0px;
 }
 
 #left-content a {
-    color: red;
+    color: blue;
     font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.p-divider {
+    transition-duration: 1s;
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;   
+    border-bottom: 1px solid;
+}
+
+#cat-divider {
+    background-color: white;
+    padding: 2px;
+}
+
+.dark-mode #cat-divider {
+    background-color: black;
+}
+
+.dark-mode #left-panel {
+    transition-duration: 1s;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode #left-panel .p-divider {
+    transition-duration: 1s;
+    color: black;
 }
