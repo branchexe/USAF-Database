@@ -151,7 +151,7 @@ a:hover {
 }
 .color-header {
     display: inline-block;
-    width: 90%;
+    width: 88%;
     background-color: red;
     text-align: center;
 }
@@ -211,16 +211,19 @@ hr {
 }
 #left-panel {
     display: inline-block;
-    text-align: center;
-    width: 9%;
+    text-align: left;
+    width: 11%;
     height: 800vh;
     margin-right: 1%;
     float: left;
-
+    
+    /*background: linear-gradient(to right, white, rgba(0, 0, 0, 0.384));*/
     background-color: white;
     color: black;
 }
-
+#left-panel #left-panel-header {
+    text-align: center;
+}
 #left-panel-header {
     position: sticky;
     top: 0;
@@ -229,5 +232,14 @@ hr {
 
 #width-adjust {
     display: inline-block;
-    width:90%;
+    width:88%;
+}
+
+#left-content {
+    color: red;
+}
+
+#left-content a {
+    color: red;
+    font-size: 12px;
 }
